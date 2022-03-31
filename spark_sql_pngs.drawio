@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T08:32:20.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.3.0" etag="yvjCKshK-vuP2sOtktLc" type="github"><diagram id="tL3VOnBbuZiVv2iJnxb_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T10:05:34.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="dIGLDHzlQ28NhQvItzbG" version="17.3.0" type="github">
+  <diagram id="tL3VOnBbuZiVv2iJnxb_" name="Page-1">
+    <mxGraphModel dx="1252" dy="808" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-1" target="UOCIDO_Q4T8c_9d9a06v-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-1" target="UOCIDO_Q4T8c_9d9a06v-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-1" target="UOCIDO_Q4T8c_9d9a06v-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-1" value="City&lt;br&gt;interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="206" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-3" value="Beijing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-5" value="Shanghai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-7" target="UOCIDO_Q4T8c_9d9a06v-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-7" value="TravelCities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-9" target="UOCIDO_Q4T8c_9d9a06v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-9" value="Visitor&lt;br&gt;interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-10" target="UOCIDO_Q4T8c_9d9a06v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOCIDO_Q4T8c_9d9a06v-10" target="UOCIDO_Q4T8c_9d9a06v-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-10" value="SingleVisitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="279" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-12" value="visit(Beijing)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-15" value="visit(Shanghai)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-17" value="accept" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOCIDO_Q4T8c_9d9a06v-19" value="&lt;h1&gt;main&lt;/h1&gt;&lt;div&gt;new TravelCities()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 创建一个&lt;/div&gt;&lt;div&gt;travelcites.accept(singlevisitor)&amp;nbsp; &amp;nbsp;// 调用accept方法&lt;/div&gt;&lt;div&gt;accept里调用 Beijing.accept&lt;/div&gt;&lt;div&gt;Beijing.accept里，visitor.visit(this)&amp;nbsp; &amp;nbsp;调用传入参数singlevisitor的visit方法&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="484" width="440" height="127" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
