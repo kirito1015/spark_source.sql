@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T07:54:34.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="hjkrccyKTKnOWTrJgQGx" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-05T08:01:13.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="jwAdtRSZN-KSs2EW4Tfg" version="17.4.0" type="github">
   <diagram id="_TAUJCwC3Z414NcdCWBq" name="Page-1">
     <mxGraphModel dx="2218" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,12 +299,12 @@
           <mxGeometry x="-27.77" y="2321" width="79.93" height="32" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-24" value="&lt;div&gt;AstBuilder.visitMultipartIdentifier(ctx){&lt;/div&gt;&lt;div&gt;&amp;nbsp; ctx.parts.asScala.map(_.getText).toSeq&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-580.7099999999999" y="2425" width="271.54" height="51" as="geometry" />
+          <mxGeometry x="-588.6199999999999" y="2425" width="271.54" height="51" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-27" value="&lt;font color=&quot;#ff3333&quot;&gt;获取表名称&lt;br&gt;tableId是表名&lt;/font&gt;&lt;br&gt;&lt;div class=&quot;okr-block-clipboard&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-761.0000000000001" y="2314" width="134.33" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="sxhnXmxJaIIymZ-26KNS-28" value="&lt;font color=&quot;#ff3333&quot;&gt;此处真正返回表名，&lt;br&gt;字符数组&lt;/font&gt;&lt;br&gt;&lt;div class=&quot;okr-block-clipboard&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="sxhnXmxJaIIymZ-26KNS-28" value="&lt;font color=&quot;#ff3333&quot;&gt;此处真正返回表名，&lt;br&gt;字符串类型数组&lt;/font&gt;&lt;br&gt;&lt;div class=&quot;okr-block-clipboard&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-714.8400000000001" y="2427.5" width="134.33" height="46" as="geometry" />
         </mxCell>
       </root>
