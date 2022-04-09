@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T08:44:19.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="OEoaeLOtlrT2TG0o1apC" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-09T13:51:54.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="u32Tj_rkeqk5y99sg0tD" version="17.4.2" type="github">
   <diagram id="_TAUJCwC3Z414NcdCWBq" name="Page-1">
-    <mxGraphModel dx="2496" dy="-92" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="-361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,13 +20,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-3" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SqlBaseParser.RelationContext{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;relationPrimary(){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.getRuleContext&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-259.88" y="1352.75" width="221.9" height="62.5" as="geometry" />
+          <mxGeometry x="-235.42" y="1352.75" width="221.9" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-5" value="1. right用来解析表，join用来处理多个表情况，处理成join&lt;br&gt;2. 先执行relation.relationPrimary&lt;br&gt;&lt;div&gt;&lt;span&gt;再执行plan&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="-786.65" y="1356" width="200" height="63" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-6" value="RelationContext里先调用relationPrimary方法，relationPrimary里执行的是getRuleContext&lt;br&gt;同QueryContext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-31" y="1342.75" width="213" height="82.5" as="geometry" />
+          <mxGeometry x="-4" y="1342.75" width="213" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="sxhnXmxJaIIymZ-26KNS-7" target="sxhnXmxJaIIymZ-26KNS-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,16 +37,16 @@
         <mxCell id="sxhnXmxJaIIymZ-26KNS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sxhnXmxJaIIymZ-26KNS-10" target="sxhnXmxJaIIymZ-26KNS-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-149" y="1520" />
+              <mxPoint x="-124" y="1520" />
               <mxPoint x="-471" y="1520" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-10" value="ParserRuleContext.getRuleContext(ctx){&lt;br&gt;getChild()&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-271.93000000000006" y="1445" width="246" height="56" as="geometry" />
+          <mxGeometry x="-247.47000000000006" y="1445" width="246" height="56" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-13" value="&lt;font color=&quot;#ff3333&quot;&gt;RelationContext -&amp;gt;&lt;br&gt;TableNameContext&lt;/font&gt;&lt;br&gt;&lt;div class=&quot;okr-block-clipboard&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-21.84" y="1450" width="134.33" height="46" as="geometry" />
+          <mxGeometry x="-4" y="1452" width="134.33" height="46" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="sxhnXmxJaIIymZ-26KNS-14" target="sxhnXmxJaIIymZ-26KNS-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -60,13 +60,13 @@
         <mxCell id="sxhnXmxJaIIymZ-26KNS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="sxhnXmxJaIIymZ-26KNS-17" target="sxhnXmxJaIIymZ-26KNS-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-144" y="1680" />
+              <mxPoint x="-122" y="1680" />
               <mxPoint x="-472" y="1680" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-17" value="&lt;div&gt;SqlBaseParser.TableNameContext{&lt;/div&gt;&lt;div&gt;accept(visitor){&lt;/div&gt;&lt;div&gt;visitTableName(this)&lt;/div&gt;&lt;div&gt;}}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-252.88" y="1599" width="217.59" height="60" as="geometry" />
+          <mxGeometry x="-233.26" y="1599" width="217.59" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="sxhnXmxJaIIymZ-26KNS-19" target="sxhnXmxJaIIymZ-26KNS-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -77,16 +77,19 @@
         <mxCell id="sxhnXmxJaIIymZ-26KNS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" parent="1" source="sxhnXmxJaIIymZ-26KNS-21" target="sxhnXmxJaIIymZ-26KNS-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-149" y="1801" />
+              <mxPoint x="-130" y="1801" />
               <mxPoint x="-476" y="1801" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-21" value="&lt;div&gt;&lt;span&gt;ctx.multipartIdentifier.&lt;/span&gt;&lt;/div&gt;getRuleContext().&lt;br&gt;getChild()" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-235.42" y="1715" width="172.98" height="52" as="geometry" />
+          <mxGeometry x="-210.95999999999998" y="1715" width="172.98" height="52" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-23" value="取子节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-58.769999999999996" y="1725" width="79.93" height="32" as="geometry" />
+          <mxGeometry x="-35" y="1725" width="79.93" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmpcA9gkI25w26fmA6Ql-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sxhnXmxJaIIymZ-26KNS-24" target="ZmpcA9gkI25w26fmA6Ql-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-24" value="&lt;div&gt;AstBuilder.visitMultipartIdentifier(ctx){&lt;/div&gt;&lt;div&gt;&amp;nbsp; ctx.parts.asScala.map(_.getText).toSeq&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-619.6199999999999" y="1829" width="271.54" height="51" as="geometry" />
@@ -96,6 +99,18 @@
         </mxCell>
         <mxCell id="sxhnXmxJaIIymZ-26KNS-28" value="&lt;font color=&quot;#ff3333&quot;&gt;此处真正返回表名，&lt;br&gt;字符串类型数组&lt;/font&gt;&lt;br&gt;&lt;div class=&quot;okr-block-clipboard&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="-745.8400000000001" y="1831.5" width="134.33" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmpcA9gkI25w26fmA6Ql-1" value="&lt;div&gt;SqlBaseParser.MultipartIdentifierContext(ctx){&lt;/div&gt;parts = new ArrayList&amp;lt;ErrorCapturingIdentifierContext&amp;gt;()&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="1822.5" width="357.08" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmpcA9gkI25w26fmA6Ql-3" value="ctx.parts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-338" y="1827" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmpcA9gkI25w26fmA6Ql-4" value="取ctx.parts实际时取的子节点ErrorCapturingIdentifierContext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1815" width="229" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmpcA9gkI25w26fmA6Ql-5" value="&lt;span style=&quot;font-family: &amp;#34;comic sans ms&amp;#34; ; font-size: 8px&quot;&gt;relation.&lt;br&gt;relationPrimary&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-371" y="1352.75" width="157.08" height="26.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
