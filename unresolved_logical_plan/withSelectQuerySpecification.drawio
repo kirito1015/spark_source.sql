@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T09:14:53.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.4.2" etag="fogH5aXyIdmGfp_G5YKc" type="github"><diagram id="XCutAmAHFHAGfaS5igqh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-12T12:35:06.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="vy88pr1r3OJ0tLWJus2b" version="17.4.2" type="github">
+  <diagram id="XCutAmAHFHAGfaS5igqh" name="Page-1">
+    <mxGraphModel dx="2730" dy="1128" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5leGGj2_KWidD0vP7HmH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-2" target="5leGGj2_KWidD0vP7HmH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AstBuilder.visitRegularQuerySpecification(ctx){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; visitFromClause(ctx.fromClause)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; withSelectQuerySpecification(...)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-543.0000000000001" y="215" width="312.35" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-3" target="5leGGj2_KWidD0vP7HmH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-3" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AstBuilder.withSelectQuerySpecification(...){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; isDistinct = true or false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; plan = visitCommonSelectQueryClausePlan(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; relation,&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#3333ff&quot;&gt;visitNamedExpressionSeq(selectClause.namedExpressionSeq)&lt;/font&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; isDistinct)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-577.49" y="330" width="381.33" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-5" value="1. 是否有 distinct 关键字&lt;br&gt;2. 给visitCommonSelectQueryClausePlan传入参数&lt;br&gt;3. 参数里会调用visitNamedExpressionSeq()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-855.49" y="352" width="278" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-6" target="5leGGj2_KWidD0vP7HmH-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="62" y="488" />
+              <mxPoint x="-387" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SqlBaseParser.SelectClauseContext{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;namedExpressionSeq(){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;this.getRuleContext()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="361.5" width="230" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-8" value="selectClause.&lt;br&gt;namedExpressionSeq" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-196.16" y="361.5" width="137" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-9" target="5leGGj2_KWidD0vP7HmH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AstBuilder.visitNamedExpressionSeq(ctx){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;Option(ctx).toSeq&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.flatMap(_.namedExpression.asScala)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;.map(typedVisit[Expression])&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-523.32" y="524" width="273" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-11" value="&lt;font color=&quot;#ff3333&quot;&gt;SelectClauseContext -&amp;gt; NamedExpressionSeqContext&lt;/font&gt;&lt;br&gt;访问namedExpressionSeq节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="183" y="373" width="191" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-12" value="先执行.namedExpression&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;NamedExpressionSeqContext -&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;NamedExpressionContext&lt;/font&gt;&lt;br&gt;在调用typedvisit访问子节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-738" y="531" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-13" target="5leGGj2_KWidD0vP7HmH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;AstBuilder.visitNamedExpression(ctx){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; e = expression(ctx.expression)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; Alias(e, ctx.name.getText)()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;&amp;nbsp; MultiAlias(e, visitIdentifierList(ctx.identifierList))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-550.2" y="652.5" width="326.75" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-15" value="会处理单别名，或多别名(如udtf生成)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-691" y="670.13" width="132.88" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-16" target="5leGGj2_KWidD0vP7HmH-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="54" y="767" />
+              <mxPoint x="-387" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-16" value="&lt;div&gt;AstBuilder.NamedExpressionContext(ctx){&lt;/div&gt;&lt;div&gt;&amp;nbsp; expression(){&lt;/div&gt;&lt;div&gt;&amp;nbsp; getRuleContext&lt;/div&gt;&lt;div&gt;&amp;nbsp; }}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="660" width="246" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-18" value="ctx.&lt;br&gt;expression" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-223.45000000000002" y="660" width="137" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-19" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;NamedExpressionContext -&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;&quot;&gt;ExpressionContext&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="177" y="668.13" width="171" height="52.25" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-20" target="5leGGj2_KWidD0vP7HmH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-20" value="AstBuilder.expression(ctx) = typedVisit(ctx)&lt;br&gt;ctx.accept(this)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-523.32" y="790" width="266" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-22" value="expression实际是访问节点的accept函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-659" y="787" width="132.88" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-23" target="5leGGj2_KWidD0vP7HmH-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="54" y="871" />
+              <mxPoint x="-390" y="871" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-23" value="ExpressionContext -&amp;gt; PredicatedContext" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-47" y="783.5" width="202" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-25" value="&lt;div&gt;AstBuilder.visitPredicated(ctx){&lt;/div&gt;&lt;div&gt;e = expression(ctx.valueExpression)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=none;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-496.91" y="898" width="213.18" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5leGGj2_KWidD0vP7HmH-27" value="走默认的visit，访问子节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="163" y="790" width="132.88" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
