@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T05:07:32.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="8R2bFXV6UFE2Z2M5TAfE" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T11:22:17.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="AcNpUZNKc_6MdU3f6SWe" version="17.4.2" type="github">
   <diagram id="XCutAmAHFHAGfaS5igqh" name="Page-1">
     <mxGraphModel dx="3191" dy="2323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5leGGj2_KWidD0vP7HmH-42" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#3333FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-3" target="5leGGj2_KWidD0vP7HmH-40">
+        <mxCell id="5leGGj2_KWidD0vP7HmH-42" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#3333FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5leGGj2_KWidD0vP7HmH-3" target="5leGGj2_KWidD0vP7HmH-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-978" y="1011" as="sourcePoint" />
             <mxPoint x="-771" y="687" as="targetPoint" />
@@ -144,8 +144,8 @@
         <mxCell id="5leGGj2_KWidD0vP7HmH-40" value="&lt;div&gt;AstBuilder.visitCommonSelectQueryClausePlan(...){&lt;/div&gt;&lt;div&gt;withLateralView =&amp;nbsp;&lt;/div&gt;&lt;div&gt;withFilter =&amp;nbsp;&lt;/div&gt;&lt;div&gt;namedExpressions =&amp;nbsp;&lt;/div&gt;&lt;div&gt;withDistinct =&amp;nbsp;&lt;/div&gt;&lt;div&gt;withWindow =&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;shadow=0;glass=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-543" y="1219" width="298" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="5leGGj2_KWidD0vP7HmH-43" value="visitNameExpressionSeq执行完后，执行该方法" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="-738" y="1242" width="163" height="62" as="geometry" />
+        <mxCell id="5leGGj2_KWidD0vP7HmH-43" value="visitNameExpressionSeq执行完后，执行该方法。处理：&lt;br&gt;latervalview&lt;br&gt;where&lt;br&gt;distinct&lt;br&gt;window" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontSize=11;fontColor=#6666FF;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-758" y="1224.5" width="192" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
