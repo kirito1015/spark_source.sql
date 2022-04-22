@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T08:28:58.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.5" etag="CQ4TcF3dpW3QVf0xueGG" type="github"><diagram id="ckziBtfAwVjLUEk3HTnu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-22T11:37:02.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="3qmN-cZs2IpU8-xSHsT5" version="17.4.5" type="github">
+  <diagram id="ckziBtfAwVjLUEk3HTnu" name="Page-1">
+    <mxGraphModel dx="764" dy="784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jTQS1fCiy9Y_mt8qG9e6-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;val&lt;/font&gt; analyzedDF = spark.sql(&quot;SELECT * FROM testData2 tt&quot;)&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;analyzed = analyzedDF.queryExecution&lt;span style=&quot;color: rgb(169 , 183 , 198)&quot;&gt;.&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;analyzed&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="103" y="132" width="493" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
