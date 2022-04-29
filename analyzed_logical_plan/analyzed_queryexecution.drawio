@@ -1,11 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T11:37:02.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="3qmN-cZs2IpU8-xSHsT5" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T11:25:18.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="ormILQohaeNQW4V5Uaxb" version="17.4.6" type="github">
   <diagram id="ckziBtfAwVjLUEk3HTnu" name="Page-1">
-    <mxGraphModel dx="764" dy="784" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2207" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jTQS1fCiy9Y_mt8qG9e6-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;val&lt;/font&gt; analyzedDF = spark.sql(&quot;SELECT * FROM testData2 tt&quot;)&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;analyzed = analyzedDF.queryExecution&lt;span style=&quot;color: rgb(169 , 183 , 198)&quot;&gt;.&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;analyzed&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="103" y="132" width="493" height="63" as="geometry" />
+        <mxCell id="jTQS1fCiy9Y_mt8qG9e6-1" value="&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;font color=&quot;#f19c99&quot;&gt;val&lt;/font&gt; analyzedDF = spark.sql(&quot;SELECT * FROM testData2 tt&quot;)&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;analyzed = analyzedDF.queryExecution&lt;span style=&quot;color: rgb(169 , 183 , 198)&quot;&gt;.&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;analyzed&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198)&quot;&gt;&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;fontFamily=jetbrains mono&quot;, monospace;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="135" width="449" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-1" target="uQ7kgvdbSzGH_BTh4Y6S-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-1" value="spark.sql(sqlText)" style="rounded=1;sketch=1;glass=0;shadow=0;fontColor=default;labelBackgroundColor=none;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="103" y="251" width="150" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=default;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-4" target="uQ7kgvdbSzGH_BTh4Y6S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-4" value="SparkSession.sql(sqlText){&lt;br&gt;sqlParser.parsePlan(sqlText)&lt;br&gt;Dataset.ofRows(self, plan, tracker)&lt;br&gt;}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="47.17" y="331" width="261.66" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-8" target="uQ7kgvdbSzGH_BTh4Y6S-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-8" value="Dataset.ofRows(LogicalPlan){&lt;br&gt;qe=new QueryExecution(.,logicalPlan,.)&lt;br&gt;}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35.800000000000004" y="448" width="284.41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-10" value="analyzedDF是Dataset类型，里面有queryExecution对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="127" width="128" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-11" value="1. parsePlan生成未解析的执行计划&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui variable&amp;#34; , &amp;#34;segoe ui&amp;#34; , , , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34;&quot;&gt;2. 传入ofRows函数里&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-162.83" y="339" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-12" value="new 一个queryexecution，返回给qe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-174.20000000000002" y="440" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-13" target="uQ7kgvdbSzGH_BTh4Y6S-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-13" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; text-align: left ; font-size: 9.8pt&quot;&gt;analyzedDF.queryExecution&lt;span style=&quot;color: rgb(169 , 183 , 198)&quot;&gt;.&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;analyzed&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="6" y="531" width="343" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-15" value="当取queryExecution里的analyzed变量值时,会进入QueryExecution类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-174.20000000000002" y="524" width="210" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;fontColor=#3333FF;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-16" target="uQ7kgvdbSzGH_BTh4Y6S-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-16" value="QueryExecution.analyzed&lt;br&gt;val analyzed = executePhase() {&lt;br&gt;...analyzer.executeAndCheck(logical)&lt;br&gt;}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35.3" y="605" width="285.7" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-18" value="analyzed变量值，调用executeAndCheck函数，传入logicalplan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="605" width="232.3" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;fontColor=#3333FF;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-19" target="uQ7kgvdbSzGH_BTh4Y6S-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-19" value="Analyzer.executeAndCheck(){&lt;br&gt;analyzed = executeAndTrack(plan)&lt;br&gt;}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="74.9" y="707" width="205.2" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;fontColor=#3333FF;" edge="1" parent="1" source="uQ7kgvdbSzGH_BTh4Y6S-21" target="uQ7kgvdbSzGH_BTh4Y6S-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-21" value="RuleExecutor.executeAndTrack(){&lt;br&gt;execute(plan)&lt;br&gt;}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="71.30000000000001" y="805" width="213.7" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uQ7kgvdbSzGH_BTh4Y6S-23" value="RuleExecutor.execute(){&lt;br&gt;batches.foreach{&lt;br&gt;batch&lt;br&gt;}}" style="rounded=1;sketch=1;glass=0;shadow=0;fontFamily=jetbrains mono&quot;, monospace;fontSize=10;spacing=0;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="91.3" y="889" width="173.7" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
