@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T09:39:40.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="dMprz81wvknRvw7IEYGn" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T15:09:13.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="FuVUosXkaF4SnGUSuy1w" version="17.4.6" type="github">
   <diagram id="hhoEee4OtY3em96QOLKo" name="Page-1">
-    <mxGraphModel dx="1391" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="956" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -362,6 +362,27 @@
         </mxCell>
         <mxCell id="6svz-Yu5DE2-0Qyf26-9-60" value="lookupGlobalTempView(part1, part2)&lt;br&gt;(db.table)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1143.5" y="983" width="202.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=#1A1A1A;elbow=vertical;" edge="1" parent="1" source="6svz-Yu5DE2-0Qyf26-9-66" target="6svz-Yu5DE2-0Qyf26-9-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-66" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 17px&quot;&gt;ResolveRelations.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1210" width="255" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-70" value="" style="rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=#1A1A1A;elbow=vertical;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="6svz-Yu5DE2-0Qyf26-9-67" target="6svz-Yu5DE2-0Qyf26-9-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-67" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 17px&quot;&gt;ResolveTempViews.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1314" width="255" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-69" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 17px&quot;&gt;plan.resolveOperatorsUpWithPruning()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="942.25" y="1427" width="370.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-72" value="当前规则为ResolveTempViews" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1325" width="167" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6svz-Yu5DE2-0Qyf26-9-74" value="循环调用获取子节点，把当前规则应用到子节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="749" y="1423" width="191" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
