@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T14:42:59.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="G17ui6QjTpxUoFCznrSk" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T14:48:31.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EIVPfY32Idl5WZpWbplM" version="18.0.6" type="github">
   <diagram id="hhoEee4OtY3em96QOLKo" name="Page-1">
-    <mxGraphModel dx="1084" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -424,53 +424,83 @@
         <mxCell id="KYrOxUyAsJtOEbto99pf-12" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;.map(ResolveRelations.resolveViews)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=default;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="963.69" y="1649" width="334.13" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-1" target="8OnXsl6RQj_-lLjxXLYx-2">
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-1" target="8OnXsl6RQj_-lLjxXLYx-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;ResolveReferences.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="995" y="1856.5" width="273" height="62.5" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;ResolveReferences.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1891" width="273" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-2" target="8OnXsl6RQj_-lLjxXLYx-5">
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="A4QgARqH3jD8Nl5-4ABR-1" target="8OnXsl6RQj_-lLjxXLYx-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305.4705882352941" y="2180.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-2" target="A4QgARqH3jD8Nl5-4ABR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-2" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;ResolveReferences.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="994" y="1981" width="273" height="62.5" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-2" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;ResolveReferences.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="2018.5" width="273" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-4" value="case判断，当子节点未解析时" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="819" y="1981" width="156" height="67.5" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-4" value="case判断，当子节点未解析时" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="1027" y="2018.5" width="156" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-5" target="8OnXsl6RQj_-lLjxXLYx-8">
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-5" target="8OnXsl6RQj_-lLjxXLYx-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-5" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;q.mapExpressions(&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;resolveExpressionByPlanChildren(_, q))&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="960.13" y="2088" width="340.74" height="64.5" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-5" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;case q:LogicalPlan =&amp;gt; q.mapExpressions(&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;resolveExpressionByPlanChildren(_, q)&lt;/font&gt;)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="2110.75" width="352.87" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-7" value="先执行括号里的函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="795" y="2088.5" width="156" height="67.5" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-7" value="function1里用case 匹配，先执行括号里的函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="2083" width="261" height="75.75" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-8" target="8OnXsl6RQj_-lLjxXLYx-11">
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-8" target="8OnXsl6RQj_-lLjxXLYx-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-8" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;resolveExpressionByPlanChildren{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;resolveExpression()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="2083" width="343.13" height="73" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-8" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;resolveExpressionByPlanChildren{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;resolveExpression()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1623.87" y="2254.75" width="343.13" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-10" value="会调用resolveExpression" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="1731" y="2087.5" width="240" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-11" target="8OnXsl6RQj_-lLjxXLYx-14">
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-11" target="8OnXsl6RQj_-lLjxXLYx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-11" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;case UnresolvedAttribute()&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="2211" width="343.13" height="73" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-11" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;case UnresolvedAttribute()&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1622.87" y="2381.25" width="343.13" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-13" value="会取到最终的字段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="1731" y="2215" width="240" height="65" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-13" value="会取到最终的字段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="1474" y="2407.75" width="156" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-14" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;mapExpressions()&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="954.5" y="2314.5" width="343.13" height="73" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-14" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;mapExpressions()&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1622.87" y="2500.75" width="343.13" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="8OnXsl6RQj_-lLjxXLYx-16" value="在这个函数里比较，如果新Expression和原来的不一样，则用新的替换原有的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="1304" y="2318.5" width="240" height="65" as="geometry" />
+        <mxCell id="8OnXsl6RQj_-lLjxXLYx-16" value="内部执行完后，执行该函数&lt;br&gt;在这个函数里比较，如果新Expression和原来的不一样，则用新的替换原有的" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="2505.75" width="389" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;plan.resolveOperatorsUpWithPruning()(function1)&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1074.5" y="2119" width="484" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-3" value="从根节点遍历，循环给子节点应用function1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="882" y="2126.25" width="192.5" height="65.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4QgARqH3jD8Nl5-4ABR-1" target="8OnXsl6RQj_-lLjxXLYx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1424" y="2331.75" as="sourcePoint" />
+            <mxPoint x="1474" y="2281.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1373" y="2414.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-5" value="从根节点遍历，直到匹配到expression为 UnresolvedAttribute时" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="2281" width="294" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-14" target="8OnXsl6RQj_-lLjxXLYx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1279" y="2454.25" as="sourcePoint" />
+            <mxPoint x="1585" y="2175.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2131" y="2458.75" />
+              <mxPoint x="2106" y="2246.75" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
