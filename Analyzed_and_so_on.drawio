@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T14:48:31.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EIVPfY32Idl5WZpWbplM" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T10:00:38.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xXanJ_7I6ai3awGZ52af" version="18.0.7" type="github">
   <diagram id="hhoEee4OtY3em96QOLKo" name="Page-1">
-    <mxGraphModel dx="1860" dy="1198" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1376" dy="769" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -435,7 +435,7 @@
             <mxPoint x="1305.4705882352941" y="2180.25" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-2" target="A4QgARqH3jD8Nl5-4ABR-1">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-2" target="A4QgARqH3jD8Nl5-4ABR-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8OnXsl6RQj_-lLjxXLYx-2" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;ResolveReferences.apply()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" parent="1" vertex="1">
@@ -474,13 +474,13 @@
         <mxCell id="8OnXsl6RQj_-lLjxXLYx-16" value="内部执行完后，执行该函数&lt;br&gt;在这个函数里比较，如果新Expression和原来的不一样，则用新的替换原有的" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="1980" y="2505.75" width="389" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;plan.resolveOperatorsUpWithPruning()(function1)&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-1" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 17px&quot;&gt;plan.resolveOperatorsUpWithPruning()(function1)&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=middle;rounded=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillColor=none;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="1074.5" y="2119" width="484" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-3" value="从根节点遍历，循环给子节点应用function1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-3" value="从根节点遍历，循环给子节点应用function1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="882" y="2126.25" width="192.5" height="65.5" as="geometry" />
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4QgARqH3jD8Nl5-4ABR-1" target="8OnXsl6RQj_-lLjxXLYx-11">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="A4QgARqH3jD8Nl5-4ABR-1" target="8OnXsl6RQj_-lLjxXLYx-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1424" y="2331.75" as="sourcePoint" />
             <mxPoint x="1474" y="2281.75" as="targetPoint" />
@@ -489,10 +489,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-5" value="从根节点遍历，直到匹配到expression为 UnresolvedAttribute时" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-5" value="从根节点遍历，直到匹配到expression为 UnresolvedAttribute时" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontFamily=Helvetica;fontSize=17;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="1191" y="2281" width="294" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="A4QgARqH3jD8Nl5-4ABR-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8OnXsl6RQj_-lLjxXLYx-14" target="8OnXsl6RQj_-lLjxXLYx-5">
+        <mxCell id="A4QgARqH3jD8Nl5-4ABR-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8OnXsl6RQj_-lLjxXLYx-14" target="8OnXsl6RQj_-lLjxXLYx-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1279" y="2454.25" as="sourcePoint" />
             <mxPoint x="1585" y="2175.75" as="targetPoint" />
@@ -501,6 +501,75 @@
               <mxPoint x="2106" y="2246.75" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="jaOl8nSAAXzAtJk_g4ZR-2" target="jaOl8nSAAXzAtJk_g4ZR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-2" value="&lt;font face=&quot;Verdana&quot;&gt;Optimizer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=0;fillColor=#f5f5f5;strokeColor=#666666;overflow=visible;noLabel=0;direction=north;connectable=1;allowArrows=1;portConstraintRotation=0;snapToPoint=0;perimeter=rectanglePerimeter;fixDash=0;autosize=0;container=0;dropTarget=0;collapsible=0;recursiveResize=1;expand=1;treeFolding=0;disableMultiStroke=0;disableMultiStrokeFill=0;dashOffset=1;fillStyle=auto;fontSize=16;fontColor=#333333;verticalAlign=top;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="202" y="3584" width="558" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-3" value="&lt;pre style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 14px;&quot;&gt; 1.Finish Analysis&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="233" y="3619.5" width="190" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-5" value="&lt;pre style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 14px;&quot;&gt; 2.Union&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="232" y="3673" width="191" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-6" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 14px;&quot;&gt; 3.Subquery&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230.18" y="3725" width="197.82" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-10" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;batches: &lt;br&gt;Seq[Batch]&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;strokeColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="394.63" y="3663.5" width="150.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-12" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89) ; font-size: 14px&quot;&gt; 4.Replace Operators&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230.18" y="3772" width="197.82" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-13" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 16px;&quot;&gt;RuleExecutor&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;sketch=1;shadow=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="28" y="3730.5" width="137" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-14" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(106 , 135 , 89) ; font-size: 14px&quot;&gt; 5.Aggregate&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="228.58999999999997" y="3824" width="202.41" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-15" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 14px&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 6.Operator Optimizations&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="229.08999999999997" y="3876" width="233.91" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-16" value="&lt;pre style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 14px;&quot;&gt; 7.Check Cartesian Products&lt;/span&gt;&lt;/pre&gt;" style="shape=note;size=12;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="517" y="3617" width="225" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-17" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 8.Decimal Optimizations&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=13;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="514.5" y="3667" width="224.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-18" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 9.Typed Filter Optimization&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=11;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="514" y="3720" width="238" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-19" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 10.LocalRelation&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="514" y="3772" width="224" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-20" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 11.OptimizeCodegen&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="514" y="3824" width="220" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-21" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 12.RewriteSubquery&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="514" y="3876" width="216" height="36.75" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jaOl8nSAAXzAtJk_g4ZR-22" target="jaOl8nSAAXzAtJk_g4ZR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-22" value="&lt;font face=&quot;Verdana&quot;&gt;SparkOptimizer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=0;fillColor=#f5f5f5;strokeColor=#666666;overflow=visible;noLabel=0;direction=north;connectable=1;allowArrows=1;portConstraintRotation=0;snapToPoint=0;perimeter=rectanglePerimeter;fixDash=0;autosize=0;container=0;dropTarget=0;collapsible=0;recursiveResize=1;expand=1;treeFolding=0;disableMultiStroke=0;disableMultiStrokeFill=0;dashOffset=1;fillStyle=auto;fontSize=16;fontColor=#333333;verticalAlign=top;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="231" y="3972" width="499" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-23" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;super.batches&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;strokeColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="236.31" y="4073" width="114.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-24" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 13.Optimize Metadata Only Query&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="369" y="4013" width="337.25" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-26" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 14.Extract Python UDF from Aggregate&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="368.25" y="4065" width="342" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-27" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 15.Prune File Source Table Partitions&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="368.25" y="4117" width="342" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOl8nSAAXzAtJk_g4ZR-28" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;font color=&quot;#6a8759&quot;&gt; 16.User Provided Optimizers&lt;/font&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=1;disableMultiStroke=0;disableMultiStrokeFill=0;fillStyle=auto;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;fillColor=none;gradientColor=#ffffff;gradientDirection=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="369" y="4169" width="343" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
